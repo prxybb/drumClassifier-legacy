@@ -1,0 +1,14 @@
+This repository contains a legacy snapshot of the drumClassifierTest.py program. 
+
+This program uses SciKit-learn to classify one-shot drum samples into 5 categories:
+kick, snare, open hat, closed hat, other.
+
+To install the necessary libraries, run the following pip3 install command in terminal:
+
+$ pip3 install librosa pandas scikit-learn soundfile numpy simpleaudio matplotlib tk joblib
+
+To execute the program, navigate to the drumClassifier-legacy directory and run the following command
+
+$ python3 drumClassifierTest.py
+
+The program comes with a pretrained model. To classify the example dataset with the existing model, enter N. To re-train the model and view the accuracy report, enter Y. 
